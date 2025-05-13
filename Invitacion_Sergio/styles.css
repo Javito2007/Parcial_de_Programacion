@@ -1,0 +1,124 @@
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  font-family: "Comic Neue", cursive;
+  font-style: normal;
+  background-color: rgb(219, 219, 219);
+}
+
+#conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#bienvenida {
+  color: rgb(0, 0, 0);
+  background-color: rgb(96, 157, 175);
+  background: linear-gradient(to bottom, #00a2ff 10%, #72bdbb 100%);
+  padding: 4em 1em 4em 1em;
+  text-align: center;
+  box-shadow: -8px 0 16px 8px rgba(0,0,0,0.15);
+  border-radius: 10px 10px 0 0;
+  margin: 40px 40px 0px 40px; 
+}
+#bienvenida h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+#bienvenida p {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#festejado {
+  font: 20px Comic Neue, cursive;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #145bdf 10%, #724cb8 100%);
+  padding: 1em 1em;
+  text-align: center;
+  box-shadow: -8px 0 16px 8px rgba(0,0,0,0.15);
+  border-radius: 0;
+  margin: 0px 40px 0px 40px; 
+}
+#festejado h1 {
+  font-size: 3em;
+  margin: 0;
+}
+#datos {
+  font: 20px Comic Neue, cursive;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to bottom, #d8d8d8 10%, #ffffff 100%);
+  padding: 2em;
+  text-align: center;
+  box-shadow: -8px 0 16px 8px rgba(0,0,0,0.15);
+  border-radius: 0 0 10px 10px;
+  margin: 0px 40px 40px 40px;
+}
+
+#datos h2 {
+    margin-bottom: 0.2em; /* Reduce el espacio debajo de los títulos */
+}
+
+#datos p {
+    margin-top: 0.2em;    /* Reduce el espacio arriba de los párrafos */
+    margin-bottom: 0.5em; /* Opcional: controla el espacio debajo */
+    padding: 0;
+}
+
+.iconos {
+    width: 50px;
+    height: 50px;
+    border-radius: 45%;         /* Hace el círculo */
+    background: #ff9317 ;        /* Fondo festivo, puedes cambiar el color */
+    display: inline-flex;       /* Centra la imagen dentro del círculo */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10); /* Sombra suave */
+    padding: 10px;               /* Espacio interno */
+    object-fit: contain;        /* Ajusta la imagen dentro del círculo */
+}
+
+.iconos:hover {
+    background: #7e5416;        /* Cambia el color al pasar el mouse */
+    transform: scale(1.1);     /* Aumenta el tamaño al pasar el mouse */
+    transition: all 0.3s ease; /* Transición suave */
+    cursor: pointer;          /* Cambia el cursor al pasar el mouse */ 
+}
